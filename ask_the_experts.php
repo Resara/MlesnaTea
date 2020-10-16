@@ -2,6 +2,13 @@
 <html lang="en">
 
 <?php include('header.php');?>
+<?php require_once 'experts_save.php'?>
+
+<?php
+include 'db/dbConnection.php';
+//$result = $mysqli-> query("SELECT * FROM review_tbl") or die($mysqli->error);
+
+?>
 
 
 <!--Breadcrumb Start-->
@@ -30,39 +37,39 @@
 
             </div>
             <div class="col-lg-8">
-                <form action="contact.html" class="contact-form">
+                <form action="experts_save.php" class="contact-form" method="post">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name">
+                                <input type="text" class="form-control" id="name" name="name">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email">
+                                <input type="email" class="form-control" id="email" name="email">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="phone">Phone</label>
-                                <input type="tel" class="form-control" id="phone">
+                                <input type="tel" class="form-control" id="phone" name="phone">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="subject">Subject</label>
-                                <input type="text" class="form-control" id="subject">
+                                <input type="text" class="form-control" id="subject" name="subject">
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" cols="30" rows="10" id="message"></textarea>
+                                <textarea class="form-control" cols="30" rows="10" id="message" name="message"></textarea>
                             </div>
                             <div class="main-btn-wrap">
-                                <input class="main-btn black" type="submit" value="Send Message">
+                                <input class="main-btn black" name="save" type="submit" value="Send Message">
                             </div>
 
                         </div>

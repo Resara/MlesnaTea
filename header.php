@@ -1,19 +1,3 @@
-<?php
-
-include 'db/dbConnection.php';
-//$id1 =  $_GET['id'];
-$dataqqq = " SELECT * FROM country  WHERE country_id = 4 ";
-$sql2qw = mysqli_query($connection,$dataqqq);
-$row3q = mysqli_fetch_array($sql2qw);
-//$row3q['country_id'];
-
-$dataqqq1 = " SELECT * FROM category_tbl  WHERE category_id = 1 ";
-$sql2qw = mysqli_query($connection,$dataqqq1);
-$row3q1 = mysqli_fetch_array($sql2qw);
-$row3q1['category_id'];
-?>
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +6,7 @@ $row3q1['category_id'];
     <title>Mlesna Tea</title>
 
     <!-- favicon -->
-    <link rel=icon href=favicon.ico sizes="20x20" type="image/png">
+    <link rel=icon href=assets/img/Pazan/logosdasdadsd.png sizes="50x50" type="image/png">
     <!-- flaticon -->
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <!-- Fonts Awesome Icons -->
@@ -44,9 +28,20 @@ $row3q1['category_id'];
     <link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-
+<body>
 <!-- preloader area start -->
+<div class="preloader" id="preloader">
+    <div class="preloader-inner">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+</div>
+<!-- preloader area end -->
 
+<!--Full Width Sider Start-->
+<div class="full-width-slider">
     <!--Main Header Start-->
     <header>
         <!--Topbar area-->
@@ -68,7 +63,7 @@ $row3q1['category_id'];
                     <!--Logo Area Start-->
                     <div class="logo-area">
                         <a href="index.php">
-                            <img src="assets/img/logo.png" alt="Logo">
+                            <img src="assets/img/Pazan/logosdasdadsd.png" alt="Logo" style="width: 90px ;height: 90px">
                         </a>
                     </div>
                     <!--// Logo Area End-->
@@ -92,15 +87,15 @@ $row3q1['category_id'];
                                     <li class="menu-item-has-children">
                                         <a href="#">The Tea Catalogue</a>
                                         <ul class="sub-menu">
-                                            <li><a href="products.php?id=<?php echo  $row3q1['category_id']; ?>">Tea Products</a></li>
+                                            <li><a href="blog.html">Tea Store</a></li>
                                             <li><a href="speciality_tea.php">Speciality Tea</a></li>
                                             <li><a href="consumerItems.php">Consumer Items</a></li>
-                                            <li><a href="catering.php">Catering Items</a></li>
-                                            <li><a href="beawring.php">Brewing & Tasting</a></li>
+                                            <li><a href="blog.html">Catering Items</a></li>
+                                            <li><a href="blog.html">Brewing & Tasting</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="agents?id=<?php echo  $row3q['country_id']; ?>">Overseas Agents</a></li>
-                                    <li><a href="service.html">Importors</a></li>
+                                    <li><a href="service.html">Overseas</a></li>
+                                    <li><a href="new_order.php">Importors</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Learn about tea </a>
                                         <ul class="sub-menu">
@@ -128,3 +123,10 @@ $row3q1['category_id'];
 
 
     <!--Carouse Dots Area-->
+    <div class="carousel-dots-area">
+        <div class="container">
+            <div class="carousel-dots">
+            </div>
+        </div>
+    </div>
+</body>

@@ -229,7 +229,7 @@ $id1 =  $_GET['id'];
 
 
     <!--Breadcrumb Start-->
-    <div class="breadcrumb-area style-03" style="background: url('assets/img/breadcrumb/04.png')">
+    <div class="breadcrumb-area style-03" style="background: url('assets/img/breadcrumb/ii.jpg')">
         <div class="container">
             <div class="row">
                 <div class="breadcrumb-content">
@@ -353,7 +353,7 @@ $id1 =  $_GET['id'];
                                             </div>
                                             <div class="car-functional-wrap__item">
                                                 <div class="main-btn-wrap padding-top-20">
-                                                    <a href="agentContactForm.php?id=<?php echo  $row2['agent_id']; ?>" class="main-btn black-border"><i class="flaticon-car-insurance"
+                                                    <a href="singleproduct.php?id=<?php echo  $row2['pro_id']; ?>" class="main-btn black-border"><i class="flaticon-car-insurance"
                                                         ></i>
                                                         Buy Now</a>
                                                 </div>
@@ -1293,9 +1293,9 @@ $id1 =  $_GET['id'];
 <!--                                    <li  ><a class="active" href="agents.php?id=--><?php //echo $row['category_id'] ?><!--">--><?php //echo $row['category_name'] ?><!--</a></li>-->
 
                                 <li class="single-recent-post-item">
-                                    <div class="thumb">
-                                        <img src="assets/img/shop-02/product-01.png" alt="popular post">
-                                    </div>
+<!--                                    <div class="thumb">-->
+                                        <i class="flaticon-paper-clip"></i>
+<!--                                    </div>-->
                                     <div class="content ">
                                         <h5 class="title"><a href="products.php?id=<?php echo $row['category_id'] ?>"><?php echo $row['category_name'] ?></a></h5>
                                         <div class="common-rating-style left">
@@ -1392,7 +1392,7 @@ $id1 =  $_GET['id'];
                         <!--// New Product Widget-->
 
 
-                        <div class="widget blog-bg style-01">
+                        <!--<div class="widget blog-bg style-01">
                             <h5 class="widget-title border-bottom">Popular Brands</h5>
                             <ul class="gallery-items">
                                 <li><a href="#"><img src="assets/img/blog/gallery/01.png" alt="img"></a></li>
@@ -1403,7 +1403,7 @@ $id1 =  $_GET['id'];
                                 <li><a href="#"><img src="assets/img/blog/gallery/06.png" alt="img"></a></li>
                             </ul>
 
-                        </div>
+                        </div>-->
                         <!--// Tag Widget-->
                     </div>
 
