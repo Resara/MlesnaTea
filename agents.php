@@ -99,8 +99,8 @@ $id1 =  $_GET['id'];
                                     $row2 = mysqli_num_rows($sql1);
                                     while ($row2 = mysqli_fetch_array($sql1)){
 
-                                        $proid =$row2['agent_id'];
-                                        $datai = " SELECT * FROM agent_image_tbl  WHERE agent_id = '$proid' ";
+//                                        $proid =$row2['agent_id'];
+                                        $datai = " SELECT * FROM agent_image_tbl  WHERE agent_id = $row2[agent_id]; ";
                                         $sqli = mysqli_query($connection,$datai);
                                         $rowi = mysqli_fetch_array($sqli);
 //                                        $datai = $rowi['image_name'];
@@ -110,9 +110,9 @@ $id1 =  $_GET['id'];
                                     <div class="grid-list-column-item" id="subCateID">
 <!--                                        <span class="price-drop-tag">22%</span>-->
                                         <div class="thumb">
-                                            <img style="width: 151px;height: 151px;" src="admin/galleryImg/1.png" alt="img">
+                                            <img style="width: 151px;height: 151px;" src="admin/galleryImg/<?php echo $rowi['image_name'];?>" alt="img">
                                         </div>
-                                        <h5 class="title padding-top-10">name</h5>
+                                        <h5 class="title padding-top-10"><?php echo $row2['agent_name'];?></h5>
                                         <div class="common-rating-style">
                                             <input type="radio" name="start1" id="start1" ><label for="start1" ></label>
                                             <input type="radio" name="start1" id="start2"><label for="start2"></label>
@@ -835,6 +835,9 @@ $id1 =  $_GET['id'];
     </div>
     <!-- back to top area end -->
 
+
+
+    <!-- jquery -->
 
     <script type="text/javascript">
         function getCategory() {
