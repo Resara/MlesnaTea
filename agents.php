@@ -28,7 +28,7 @@ $id1 =  $_GET['id'];
                 <div class="breadcrumb-content">
                     <h1 class="page-title">Agents</h1>
                     <ul class="page-list">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>Agents</li>
                     </ul>
                 </div>

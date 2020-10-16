@@ -65,7 +65,7 @@ $result = $mysqli-> query("SELECT * FROM review_tbl") or die($mysqli->error);
                                 <!-- single comment wrap -->
                                 <div class="single-comment-wrap padding-40">
                                     <div class="thumb">
-                                        <img src="assets/img/blog/blog-details/avatar-01.png" alt="comment images">
+                                        <img src="assets/img/icon.png" alt="comment images">
                                     </div>
                                     <div class="content bg-none">
                                         <div class="title-area">
@@ -127,110 +127,7 @@ $result = $mysqli-> query("SELECT * FROM review_tbl") or die($mysqli->error);
 
 
 <!--Blog Related Post-->
-<div class="related-post padding-bottom-95">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!--Section Title-->
-                <div class="section-title">
-                    <div class="padding-bottom-20">
-                        <h5 class="related-post-title">Related Posts</h5>
-                    </div>
-                </div>
-                <!--// Section Title-->
-            </div>
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="latest-news-slider-items">
-                            <div class="cards">
-                                <div class="cards-img"><img src="assets/img/blog/blog-details/related-post/01.png"
-                                                            alt="img"></div>
-                                <div class="cards-body">
-                                    <div class="padding-bottom-30 padding-top-10">
-                                        <h5 class="heading-05"><a href="#">What is Important for Product Design or
-                                                Sales</a></h5>
-                                    </div>
-                                    <div class="name-date">
-                                        <div class="author-name">Tim Brown</div>
-                                        <div class="publish-date">May 26, 2019</div>
-                                    </div>
-                                </div>
-                                <!--// Cards Body-->
-                            </div>
-                            <!--//cards-->
-                        </div>
-                        <!--// Items-->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="latest-news-slider-items">
-                            <div class="cards">
-                                <div class="cards-img"><img src="assets/img/blog/blog-details/related-post/02.png"
-                                                            alt="img"></div>
-                                <div class="cards-body">
-                                    <div class="padding-bottom-30 padding-top-10">
-                                        <h5 class="heading-05"><a href="#">What is Important for Product Design or
-                                                Sales</a></h5>
-                                    </div>
-                                    <div class="name-date">
-                                        <div class="author-name">Tim Brown</div>
-                                        <div class="publish-date">May 26, 2019</div>
-                                    </div>
-                                </div>
-                                <!--// Cards Body-->
-                            </div>
-                        </div>
-                        <!--// Items-->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="latest-news-slider-items">
-                            <div class="cards">
-                                <div class="cards-img"><img src="assets/img/blog/blog-details/related-post/03.png"
-                                                            alt="img"></div>
-                                <div class="cards-body">
-                                    <div class="padding-bottom-30 padding-top-10">
-                                        <h5 class="heading-05"><a href="#">What is Important for Product Design or
-                                                Sales</a></h5>
-                                    </div>
-                                    <div class="name-date">
-                                        <div class="author-name">Tim Brown</div>
-                                        <div class="publish-date">May 26, 2019</div>
-                                    </div>
-                                </div>
-                                <!--// Cards Body-->
-                            </div>
-                        </div>
-                        <!--// Items-->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="latest-news-slider-items">
-                            <div class="cards">
-                                <div class="cards-img"><img src="assets/img/blog/blog-details/related-post/04.png"
-                                                            alt="img"></div>
-                                <div class="cards-body">
-                                    <div class="padding-bottom-30 padding-top-10">
-                                        <h5 class="heading-05"><a href="#">What is Important for Product Design or
-                                                Sales</a></h5>
-                                    </div>
-                                    <div class="name-date">
-                                        <div class="author-name">Tim Brown</div>
-                                        <div class="publish-date">May 26, 2019</div>
-                                    </div>
-                                </div>
-                                <!--// Cards Body-->
-                            </div>
-                        </div>
-                        <!--// Items-->
-                    </div>
-                </div>
-                <!--// Latest News Slider Wrap-->
-            </div>
-        </div>
-    </div>
-</div>
+<!---->
 <!--// Blog Related Post-->
 
 
@@ -266,6 +163,28 @@ $result = $mysqli-> query("SELECT * FROM review_tbl") or die($mysqli->error);
 <script src="assets/js/imagesloaded.pkgd.min.js"></script>
 <!-- main js -->
 <script src="assets/js/main.js"></script>
+
+<script>
+    function checkValidation(reg) {
+        if (reg.match(/^[a-zA-Z\-]+$/)) {
+            return true;
+        } else {
+            return false
+        }
+    }
+
+    function checkEmailOrPhone(phoneOrEmail) {
+        if (phoneOrEmail.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)) {
+            return true;
+        } else if (phoneOrEmail.match(/^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$/)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+</script>
+
 
 </body>
 

@@ -115,7 +115,7 @@
 
 
     <!--Process Section -->
-    <section class="process-section padding-bottom-80 padding-top-60" style="background-image: url(assets/img/Pazan/backk.jpg)">
+    <section class="process-section padding-bottom-80 padding-top-60" >
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -150,7 +150,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/p15.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/p19.jpeg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
@@ -170,7 +170,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/p16.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/p18.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
@@ -194,7 +194,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title padding-bottom-50 padding-top-40">
-                        <h2 class="heading-02">Most Selling Products</h2>
+                        <h2 class="heading-02">Newly Added Products</h2>
                     </div>
                 </div>
             </div>
@@ -244,7 +244,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/n14.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/n17.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">

@@ -8,25 +8,20 @@
                 <div class="col-lg-5 col-md-6 px-lg-0">
                     <div class="footer-widget widget">
                         <div class="about_us_widget">
-                            <a href="index.php" class="footer-logo"> <img src="assets/img/logo.png"
-                                                                          alt="footer logo"></a>
-                            <p>We believe brand interaction is key in commu- nication. Real innovations and a
-                                positive customer
-                                experience are the heart of successful communication.</p>
+                            <a href="index.php" class="footer-logo"> <img src="assets/img/Pazan/logosdasdadsd.png"
+                                                                          alt="footer logo" style="width: 90px ;height: 90px"></a>
 
                             <div class="footer-social-icon padding-top-10">
                                 <div class="banner__header__follow_us">
                                     <div class="text">FOLLOW US</div>
                                     <div class="banner__header__icon">
                                         <ul>
-                                            <li><a class="icon" href="https://www.facebook.com/codingeek.net/"
+                                            <li><a class="icon" href="https://www.facebook.com/pages/category/Company/Mlesna-1481982108710124/"
                                                    target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a class="icon" href="https://twitter.com/codingeeknet"
-                                                   target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a class="icon" href="https://www.instagram.com/codingeeknet"
+                                            <li><a class="icon" href="https://www.instagram.com/mlesnaceylontea/?hl=en"
                                                    target="_blank"><i class="fab fa-instagram"></i></a></li>
                                             <li><a class="icon"
-                                                   href="https://www.linkedin.com/company/codingeek/about"
+                                                   href="https://lk.linkedin.com/company/mlesna-teas-private-limited"
                                                    target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                                         </ul>
                                     </div>
@@ -45,11 +40,9 @@
                         <h5 class="widget-title">Contact us</h5>
                         <div class="contact-area">
                             <ul>
-                                <li><i class="icon flaticon-pin"></i><a href="#">Lavaca Street, Suite 2000 Austin,
-                                        TX 24141</a></li>
-                                <li><i class="icon flaticon-email"></i><a href="#">autoshop@gmail.com</a></li>
-                                <li><i class="icon flaticon-call-answer"></i><a href="#">(+88) 0172 570051</a></li>
-                                <li><i class="icon flaticon-global"></i><a href="#">www.autoshop.com</a></li>
+                                <li><i class="icon flaticon-pin"></i><a href="#">Sunethradevi Rd, Nugegoda</a></li>
+                                <li><i class="icon flaticon-email"></i><a href="#">mlesnatea@gmail.com</a></li>
+                                <li><i class="icon flaticon-call-answer"></i><a href="#">(+94) 112 696 348</a></li>
                             </ul>
                         </div>
                     </div>

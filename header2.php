@@ -6,7 +6,7 @@
     <title>Mlesna Tea</title>
 
     <!-- favicon -->
-    <link rel=icon href=favicon.ico sizes="20x20" type="image/png">
+    <link rel=icon href=assets/img/Pazan/logosdasdadsd.png sizes="50x50" type="image/png">
     <!-- flaticon -->
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <!-- Fonts Awesome Icons -->
@@ -29,6 +29,23 @@
 
 </head>
 <body>
+
+<?php
+
+include 'db/dbConnection.php';
+//$id1 =  $_GET['id'];
+$dataqqq = " SELECT * FROM country  WHERE country_id = 4 ";
+$sql2qw = mysqli_query($connection,$dataqqq);
+$row3q = mysqli_fetch_array($sql2qw);
+//$row3q['country_id'];
+
+$dataqqq1 = " SELECT * FROM category_tbl  WHERE category_id = 1 ";
+$sql2qw = mysqli_query($connection,$dataqqq1);
+$row3q1 = mysqli_fetch_array($sql2qw);
+$row3q1['category_id'];
+?>
+
+
 <!-- preloader area start -->
 <div class="preloader" id="preloader">
     <div class="preloader-inner">
@@ -41,29 +58,29 @@
 <!-- preloader area end -->
 
 <!--Full Width Sider Start-->
-<div class="full-width-slider">
-    <!--Main Header Start-->
-    <header>
-        <!--Topbar area-->
-        <div class="topbar-area">
-            <div class="container">
-                <div class="row">
-                    <div class="topbar-inner">
+<!--<div class="full-width-slider">-->
+<!--Main Header Start-->
+<header>
+    <!--Topbar area-->
+    <div class="topbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="topbar-inner">
 
-                    </div>
                 </div>
             </div>
         </div>
-        <!--// Top Bar Area End-->
+    </div>
+    <!--// Top Bar Area End-->
 
-        <div class="container">
-            <div class="row">
-                <div class="header-bottom-area">
+    <div class="container">
+        <div class="row">
+            <div class="header-bottom-area">
 
                     <!--Logo Area Start-->
                     <div class="logo-area">
                         <a href="index.php">
-                            <img src="assets/img/logo.png" alt="Logo">
+                            <img src="assets/img/Pazan/logosdasdadsd.png" alt="Logo" style="width: 90px ;height: 90px">
                         </a>
                     </div>
                     <!--// Logo Area End-->
@@ -83,7 +100,7 @@
                             <div class="collapse navbar-collapse" id="autoshop_main_menu">
                                 <ul class="navbar-nav">
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="service.html">Tea Guide</a></li>
+<!--                                    <li><a href="service.html">Tea Guide</a></li>-->
                                     <li class="menu-item-has-children">
                                         <a href="#">The Tea Catalogue</a>
                                         <ul class="sub-menu">
@@ -109,24 +126,27 @@
                                 </ul>
                             </div>
 
+                            </ul>
                         </div>
-                    </nav>
-                    <!-- navbar area end -->
 
-                </div>
-                <!--// header Bottom-->
+                    </div>
+                </nav>
+                <!-- navbar area end -->
+
             </div>
-        </div>
-    </header>
-    <!--// Main Header End Here-->
-
-
-
-    <!--Carouse Dots Area-->
-    <div class="carousel-dots-area">
-        <div class="container">
-            <div class="carousel-dots">
-            </div>
+            <!--// header Bottom-->
         </div>
     </div>
+</header>
+<!--// Main Header End Here-->
+
+
+
+<!--Carouse Dots Area-->
+<div class="carousel-dots-area">
+    <div class="container">
+        <div class="carousel-dots">
+        </div>
+    </div>
+</div>
 </body>
