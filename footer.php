@@ -1,8 +1,4 @@
-<div class="footer-sytle padding-top-30 padding-bottom-10">
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
                 <!-- footer area start -->
                 <footer class="footer-area style-02" style="background-image: url('assets/img/Pazan/bgg.jpg')">
                     <div class="footer-top ">
@@ -84,52 +80,3 @@
 
                 </footer>
                 <!-- footer area end -->
-
-            </div>
-        </div>
-    </div>
-</div>
-<!--Footer One-->
-
-
-<!-- back to top area start -->
-<div class="back-to-top">
-    <span class="back-top"> <img src="assets/img/backToTop1.png" alt="img"> </span>
-</div>
-<!-- back to top area end -->
-
-
-
-<!-- jquery -->
-<script src="assets/js/jquery-3.4.1.min.js"></script>
-<!--migrate-->
-<script src="assets/js/jquery-migrate.min.js"></script>
-<!-- bootstrap -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- waypoint -->
-<script src="assets/js/waypoints.min.js"></script>
-<!-- wow -->
-<script src="assets/js/wow.min.js"></script>
-<!--Slick Js-->
-<script src="assets/js/slick.min.js"></script>
-<!-- counterup -->
-<script src="assets/js/jQuery.rcounter.js"></script>
-<!--Custom Video Popup-->
-<script src="assets/js/jquery.rPopup.js"></script>
-<!--Nice Select-->
-<script src="assets/js/jquery.nice-select.min.js"></script>
-<!-- imageloaded -->
-<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-
-<!--Jwuery UI-->
-<script src="assets/js/jquery-ui.js"></script>
-
-<!--Misitup-->
-<script src="assets/js/mixitup.min.js"></script>
-<!--Google Map API-->
-<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVyNXoXHkqAwBKJaouZWhHPCP5vg7N0HQ&callback=initMap"
-    async defer></script> -->
-<!--Google Map Active-->
-<!-- <script src="assets/js/goolg-map-activate.js"></script> -->
-<!-- main js -->
-<script src="assets/js/main.js"></script>
