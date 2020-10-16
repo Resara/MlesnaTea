@@ -100,7 +100,7 @@ $row3q1['category_id'];
                             <div class="collapse navbar-collapse" id="autoshop_main_menu">
                                 <ul class="navbar-nav">
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="service.html">Tea Guide</a></li>
+<!--                                    <li><a href="service.html">Tea Guide</a></li>-->
                                     <li class="menu-item-has-children">
                                         <a href="#">The Tea Catalogue</a>
                                         <ul class="sub-menu">
