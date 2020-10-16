@@ -101,7 +101,7 @@ include 'db/dbConnection.php';
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/Green-tea-and-weight-Loss.jpg" alt="img">
+                                <img src="assets/img/r1.jpg" alt="img">
                             </div>
                             <div class="items-body">
                                 <h5 class="heading-05">BOP Sp Tea</h5>
@@ -121,7 +121,7 @@ include 'db/dbConnection.php';
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/Green-tea-and-weight-Loss.jpg" alt="img">
+                                <img src="assets/img/r2.jpg" alt="img">
                             </div>
                             <div class="items-body">
                                 <h5 class="heading-05">FBOPF Sp Tea</h5>
@@ -141,7 +141,7 @@ include 'db/dbConnection.php';
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/Green-tea-and-weight-Loss.jpg" alt="img">
+                                <img src="assets/img/r3.jpg" alt="img">
                             </div>
                             <div class="items-body">
                                 <h5 class="heading-05">FBOP</h5>
@@ -161,7 +161,7 @@ include 'db/dbConnection.php';
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/Green-tea-and-weight-Loss.jpg" alt="img">
+                                <img src="assets/img/r4.jpg" alt="img">
                             </div>
                             <div class="items-body">
                                 <h5 class="heading-05">BOPF Tea</h5>
@@ -181,7 +181,7 @@ include 'db/dbConnection.php';
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/Green-tea-and-weight-Loss.jpg" alt="img">
+                                <img src="assets/img/r5.jpg" alt="img">
                             </div>
                             <div class="items-body">
                                 <h5 class="heading-05">BOP1A</h5>
@@ -241,7 +241,7 @@ include 'db/dbConnection.php';
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
                                     <a href="" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Add To Cart</a>
+                                        View</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
@@ -266,7 +266,7 @@ include 'db/dbConnection.php';
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
                                     <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Add To Cart</a>
+                                        View</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
@@ -293,7 +293,7 @@ include 'db/dbConnection.php';
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
                                     <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Add To Cart</a>
+                                        View</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
@@ -320,7 +320,7 @@ include 'db/dbConnection.php';
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
                                     <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Add To Cart</a>
+                                        View</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
