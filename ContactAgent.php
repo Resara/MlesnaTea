@@ -68,10 +68,10 @@ $cdata1 = $row3['country_code'];
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-inner text-center">
-                        <h1 class="page-title">Contact Us</h1>
+                        <h1 class="page-title">Contact Your Agent</h1>
                         <ul class="page-list">
                             <li><a href="index.html">Home</a></li>
-                            <li>Contact Us</li>
+                            <li>Contact Your Agent</li>
                         </ul>
                     </div>
                 </div>

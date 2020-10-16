@@ -2420,7 +2420,7 @@ header {
     -ms-flex-align: center;
     align-items: center; }
   header .logo-area {
-    width: 10%;
+    width: 20%;
     min-width: 160px;
     display: -webkit-box;
     display: -ms-flexbox;

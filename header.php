@@ -80,7 +80,7 @@ $row3q1['category_id'];
                     <!--Logo Area Start-->
                     <div class="logo-area">
                         <a href="index.php">
-                            <img src="assets/img/Pazan/logosdasdadsd.png" alt="Logo" style="width: 90px ;height: 90px">
+                            <img src="assets/img/Pazan/logosdasdadsd.png" alt="Logo" style="width: 200px ;height: 90px">
                         </a>
                     </div>
                     <!--// Logo Area End-->

@@ -9,7 +9,7 @@
                     <div class="footer-widget widget">
                         <div class="about_us_widget">
                             <a href="index.php" class="footer-logo"> <img src="assets/img/Pazan/logosdasdadsd.png"
-                                                                          alt="footer logo" style="width: 90px ;height: 90px"></a>
+                                                                          alt="footer logo" style="width: 200px ;height: 90px"></a>
 
                             <div class="footer-social-icon padding-top-10">
                                 <div class="banner__header__follow_us">
