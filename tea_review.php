@@ -420,6 +420,13 @@ $result = $mysqli-> query("SELECT * FROM review_tbl") or die($mysqli->error);
                     <div class="comment-area padding-top-120">
                         <h5 class="comments-title">Reviews:</h5>
                         <ul class="comment-list">
+                           <?php
+                            $sql="SELECT * FROM review_tbl";
+                           $data=mysqli_query($connection,$sql);
+                           while ($dataRow=mysqli_fetch_assoc($data)){
+
+
+                            ?>
                             <li>
                                 <!-- single comment wrap -->
                                 <div class="single-comment-wrap padding-40">
@@ -428,45 +435,18 @@ $result = $mysqli-> query("SELECT * FROM review_tbl") or die($mysqli->error);
                                     </div>
                                     <div class="content bg-none">
                                         <div class="title-area">
-                                            <h5 class="title">Adam Smith</h5>
-                                            <span class="date">2 Days Ago</span>
-                                        </div>
-                                        <p>Twitter Prototype Product management beta long tail business cosumer user
-                                            experience learning curve iteration seed money.
-                                            stealth startup lean startup equity focus metrics sales channels
-                                            influencer ecosystem monetization.</p>
+                                            <h5 class="title"><?php echo $dataRow['name'];?></h5>
 
-                                        <div class="reply">
-                                            <a href="#"> <i class="icon fa fa-reply"></i> Reply</a>
                                         </div>
+                                        <p><?php echo $dataRow['review']?></p>
+
                                     </div>
                                 </div><!-- // single comment wrap -->
 
 
                             </li>
+                            <?php } ?>
 
-                            <li>
-                                <!-- single comment wrap -->
-                                <div class="single-comment-wrap padding-40">
-                                    <div class="thumb">
-                                        <img src="assets/img/blog/blog-details/avatar-03.png" alt="comment images">
-                                    </div>
-                                    <div class="content bg-none">
-                                        <div class="title-area">
-                                            <h5 class="title">Neem Uddin</h5>
-                                            <span class="date">2 Days Ago</span>
-                                        </div>
-                                        <p>Twitter Prototype Product management beta long tail business cosumer user
-                                            experience learning curve iteration seed money.
-                                            stealth startup lean startup equity focus metrics sales channels
-                                            influencer ecosystem monetization.</p>
-                                        <div class="reply">
-                                            <a href="#"> <i class="icon fa fa-reply"></i> Reply</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- // single comment wrap -->
-                            </li>
                         </ul>
 
                         <!-- comment form wrap -->
