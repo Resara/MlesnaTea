@@ -428,7 +428,7 @@
                                 </div>
                                 <div class="read-more-area">
                                     <div class="read-more">
-                                        <a href="#">Read More</a>
+                                        <a href="tea_recipe.php">Read More</a>
                                     </div>
                                     <div class="share">
                                         <span class="share-text">Share</span>
@@ -484,7 +484,7 @@
                                 </div>
                                 <div class="read-more-area">
                                     <div class="read-more">
-                                        <a href="#">Read More</a>
+                                        <a href="tea_recipe2.php">Read More</a>
                                     </div>
                                     <div class="share">
                                         <span class="share-text">Share</span>
@@ -542,7 +542,7 @@
                                 </div>
                                 <div class="read-more-area">
                                     <div class="read-more">
-                                        <a href="#">Read More</a>
+                                        <a href="tea_recipe3.php">Read More</a>
                                     </div>
                                     <div class="share">
                                         <span class="share-text">Share</span>
@@ -597,7 +597,7 @@
                                 </div>
                                 <div class="read-more-area">
                                     <div class="read-more">
-                                        <a href="#">Read More</a>
+                                        <a href="tea_recipe4.php">Read More</a>
                                     </div>
                                     <div class="share">
                                         <span class="share-text">Share</span>

@@ -402,20 +402,11 @@
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-01.png" alt="img">
+                                <img src="assets/img/Jasmine-Tea-Berm-Berm-Coffees.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes S-Class</h5>
-                                <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
-                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
-                                </ul>
+                                <h5 class="heading-05">Jasmin Tea</h5>
+
                             </div>
                             <div class="main-btn-wrap text-center">
                                 <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
@@ -426,7 +417,7 @@
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-02.png" alt="img">
+                                <img src="assets/img/Green-tea-and-weight-Loss.jpg" alt="img">
                             </div>
                             <div class="items-body">
                                 <h5 class="heading-05">Green Tea</h5>
@@ -441,20 +432,11 @@
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-03.png" alt="img">
+                                <img src="assets/img/flavor.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes AMG GT</h5>
-                                <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
-                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
-                                </ul>
+                                <h5 class="heading-05">Flavoured Tea</h5>
+
                             </div>
                             <div class="main-btn-wrap text-center">
                                 <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
@@ -465,20 +447,11 @@
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-04.png" alt="img">
+                                <img src="assets/img/normaltea.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes CLS</h5>
-                                <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
-                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
-                                </ul>
+                                <h5 class="heading-05">Normal Tea</h5>
+
                             </div>
                             <div class="main-btn-wrap text-center">
                                 <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
@@ -489,20 +462,11 @@
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-01.png" alt="img">
+                                <img src="assets/img/oolang.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes C-Class</h5>
-                                <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
-                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
-                                </ul>
+                                <h5 class="heading-05">Oolong Tea</h5>
+
                             </div>
                             <div class="main-btn-wrap text-center">
                                 <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
@@ -513,20 +477,11 @@
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-02.png" alt="img">
+                                <img src="assets/img/White-Tea_1.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes GLA</h5>
-                                <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
-                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
-                                </ul>
+                                <h5 class="heading-05">White Tea</h5>
+
                             </div>
                             <div class="main-btn-wrap text-center">
                                 <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
@@ -563,9 +518,9 @@
                             <div class="grid-list-column-item">
                                 <span class="price-drop-tag">22%</span>
                                 <div class="thumb">
-                                    <img src="assets/img/shop/product/02.png" alt="img">
+                                    <img src="assets/img/chai4.jpg" alt="img">
                                 </div>
-                                <h5 class="title padding-top-10">Air Intake System</h5>
+                                <h5 class="title padding-top-10">Chai</h5>
                                 <div class="common-rating-style">
                                     <input type="radio" name="start1" id="start21"><label for="start21"></label>
                                     <input type="radio" name="start1" id="start22"><label for="start22"></label>
@@ -577,8 +532,8 @@
                                     Price: <span class="black">$145</span>
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
-                                    <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Add To Cart</a>
+                                    <a href="#" class="main-btn black-border">
+                                        View</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
@@ -590,9 +545,9 @@
                             <div class="grid-list-column-item">
                                 <span class="price-drop-tag">22%</span>
                                 <div class="thumb">
-                                    <img src="assets/img/shop/product/02.png" alt="img">
+                                    <img src="assets/img/Chamomile_3D_box.jpg" alt="img">
                                 </div>
-                                <h5 class="title padding-top-10">Air Intake System</h5>
+                                <h5 class="title padding-top-10">Chamomile</h5>
                                 <div class="common-rating-style">
                                     <input type="radio" name="start1" id="start21"><label for="start21"></label>
                                     <input type="radio" name="start1" id="start22"><label for="start22"></label>
@@ -604,8 +559,8 @@
                                     Price: <span class="black">$145</span>
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
-                                    <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Add To Cart</a>
+                                    <a href="#" class="main-btn black-border">
+                                        View</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
@@ -617,9 +572,9 @@
                             <div class="grid-list-column-item">
                                 <span class="price-drop-tag">22%</span>
                                 <div class="thumb">
-                                    <img src="assets/img/shop/product/03.png" alt="img">
+                                    <img src="assets/img/white.jpg" alt="img">
                                 </div>
-                                <h5 class="title padding-top-10">Auto Clutch & Brake</h5>
+                                <h5 class="title padding-top-10">White Tea</h5>
                                 <div class="common-rating-style">
                                     <input type="radio" name="start1" id="start31"><label for="start31"></label>
                                     <input type="radio" name="start1" id="start32"><label for="start32"></label>
@@ -631,8 +586,8 @@
                                     Price: <span class="black">$145</span>
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
-                                    <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Add To Cart</a>
+                                    <a href="#" class="main-btn black-border">
+                                        View</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
@@ -643,9 +598,9 @@
                             <div class="grid-list-column-item">
                                 <span class="price-drop-tag">22%</span>
                                 <div class="thumb">
-                                    <img src="assets/img/shop/product/01.png" alt="img">
+                                    <img src="assets/img/hibscus.jpg" alt="img">
                                 </div>
-                                <h5 class="title padding-top-10">Flash Deals Tyre</h5>
+                                <h5 class="title padding-top-10">Hibiscus</h5>
                                 <div class="common-rating-style">
                                     <input type="radio" name="start1" id="start41"><label for="start41"></label>
                                     <input type="radio" name="start1" id="start42"><label for="start42"></label>
@@ -657,8 +612,8 @@
                                     Price: <span class="black">$145</span>
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
-                                    <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Add To Cart</a>
+                                    <a href="#" class="main-btn black-border">
+                                        View</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
