@@ -100,11 +100,11 @@
                                         <a href="#">The Tea Catalogue</a>
                                         <ul class="sub-menu">
                                             <li><a href="blog.html">History</a></li>
-                                            <li><a href="blog.html">Recipes</a></li>
+                                            <li><a href="recipes.php">Recipes</a></li>
                                             <li><a href="blog.html">Glossary</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="service.html">Reviews</a></li>
+                                    <li><a href="tea_review.php">Reviews</a></li>
 
                                 </ul>
                             </div>

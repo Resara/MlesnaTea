@@ -16,5 +16,9 @@ if (isset($_POST['save'])){
     $mysqli ->query("INSERT INTO `new_order`(id, firstname, lastname, email, phone, address, postalcode, teaCat, teaType)
                     VALUES ('','$firstname','$lastname','$email','$phone','$address','$postalcode','$teaCat','$teaType')")
     or die($mysqli->error);
+
+    header("location:new_order.php");
+
+//    window.location.replace("new_order.php");
 }
 ?>
