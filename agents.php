@@ -285,35 +285,41 @@ $id1 =  $_GET['id'];
                                 <div class="grid-list-wrapper padding-top-40">
                                     <!-- Grid List Column-->
                                     <?php
-                                    $dataq = " SELECT * FROM agent_details  WHERE agent_countryId = '$id1' ";
-                                    $sqlq = mysqli_query($connection,$dataq);
-                                    $rowq = mysqli_fetch_array($sqlq);
-                                    $dataiq = $rowq['agent_id'];
-
-
-                                    $datai = " SELECT * FROM agent_image_tbl  WHERE agent_id = '$dataiq' ";
-                                    $sqli = mysqli_query($connection,$datai);
-                                    $rowi = mysqli_fetch_array($sqli);
-                                    $datai = $rowi['image_name'];
-
-                                    $data = " SELECT * FROM country  WHERE country_id = '$id1' ";
-                                    $sql2 = mysqli_query($connection,$data);
-                                    $row3 = mysqli_fetch_array($sql2);
-                                    $cdata = $row3['country_name'];
+//                                    $dataq = " SELECT * FROM agent_details  WHERE agent_countryId = '$id1' ";
+//                                    $sqlq = mysqli_query($connection,$dataq);
+//                                    $rowq = mysqli_fetch_array($sqlq);
+//                                    $dataiq = $rowq['agent_id'];
+//
+//
+//                                    $datai = " SELECT * FROM agent_image_tbl  WHERE agent_id = '$dataiq' ";
+//                                    $sqli = mysqli_query($connection,$datai);
+//                                    $rowi = mysqli_fetch_array($sqli);
+//                                    $datai = $rowi['image_name'];
+//
+//                                    $data = " SELECT * FROM country  WHERE country_id = '$id1' ";
+//                                    $sql2 = mysqli_query($connection,$data);
+//                                    $row3 = mysqli_fetch_array($sql2);
+//                                    $cdata = $row3['country_name'];
 
 
                                     $sql1 = mysqli_query($connection,"SELECT * FROM agent_details  WHERE agent_countryId = '$id1'");
                                     $row2 = mysqli_num_rows($sql1);
                                     while ($row2 = mysqli_fetch_array($sql1)){
 
+                                        $proid =$row2['agent_id'];
+                                        $datai = " SELECT * FROM agent_image_tbl  WHERE agent_id = '$proid' ";
+                                        $sqli = mysqli_query($connection,$datai);
+                                        $rowi = mysqli_fetch_array($sqli);
+//                                        $datai = $rowi['image_name'];
+
                                     ?>
 
                                     <div class="grid-list-column-item" id="subCateID">
 <!--                                        <span class="price-drop-tag">22%</span>-->
                                         <div class="thumb">
-                                            <img style="width: 151px;height: 151px;" src="admin/galleryImg/<?php echo $datai;?>" alt="img">
+                                            <img style="width: 151px;height: 151px;" src="admin/galleryImg/1.png" alt="img">
                                         </div>
-                                        <h5 class="title padding-top-10"><?php echo $row2['agent_name'] ;?></h5>
+                                        <h5 class="title padding-top-10">name</h5>
                                         <div class="common-rating-style">
                                             <input type="radio" name="start1" id="start1" ><label for="start1" ></label>
                                             <input type="radio" name="start1" id="start2"><label for="start2"></label>
@@ -322,7 +328,7 @@ $id1 =  $_GET['id'];
                                             <input type="radio" name="start1" id="start5"><label for="start5"></label>
                                         </div>
                                         <div class="common-price-style ">
-                                            <?php echo $cdata ;?>
+                                            price
                                         </div>
                                         <div class="main-btn-wrap padding-top-20">
                                             <a href="ContactAgent.php?id=<?php echo  $row2['agent_id']; ?>" class="main-btn black-border" style="text-decoration: none;"><i class="icon flaticon-phone-call"
@@ -879,7 +885,7 @@ $id1 =  $_GET['id'];
                                 <?php
 
 
-                                $sql = mysqli_query($connection,"SELECT * FROM country ");
+                                $sql = mysqli_query($connection,"SELECT * FROM country  limit 5");
                                 $row = mysqli_num_rows($sql);
                                 while ($row = mysqli_fetch_array($sql)){ ?>
                                     <!--                                    echo "<option value='". $row['category_id'] ."'>" .$row['category_name'] ." </option>" ;-->
@@ -889,12 +895,7 @@ $id1 =  $_GET['id'];
                                 }
                                 ?>
 
-                                <li><a href="#">All Product</a></li>
-                                <li><a href="#">Car Parts</a></li>
-                                <li><a href="#">Car</a></li>
-                                <li><a href="#">Accessories</a></li>
-                                <li><a href="#">Body Kit</a></li>
-                                <li><a href="#">Other</a></li>
+
                             </ul>
                         </div>
 
@@ -910,103 +911,103 @@ $id1 =  $_GET['id'];
 <!--                            &lt;!&ndash;// Price Filter&ndash;&gt;-->
 <!--                        </div>-->
 
-                        <div class="widget blog-bg style-01">
-                            <h5 class="widget-title border-bottom">New Product</h5>
-                            <ul class="recent_post_item">
-                                <li class="single-recent-post-item">
-                                    <div class="thumb">
-                                        <img src="assets/img/shop/new-product/01.png" alt="recent post">
-                                    </div>
-                                    <div class="content">
-                                        <h5 class="title"><a href="#">Creative Audio System</a></h5>
-                                        <div class="common-rating-style left">
-                                            <input type="radio" name="start1" id="start111"><label
-                                                for="start111"></label>
-                                            <input type="radio" name="start1" id="start112"><label
-                                                for="start112"></label>
-                                            <input type="radio" name="start1" id="start113"><label
-                                                for="start113"></label>
-                                            <input type="radio" name="start1" id="start114"><label
-                                                for="start114"></label>
-                                            <input type="radio" name="start1" id="start115"><label
-                                                for="start115"></label>
-                                        </div>
-                                        <div class="common-price-style">
-                                            Price: <span class="black">$145</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="single-recent-post-item">
-                                    <div class="thumb">
-                                        <img src="assets/img/shop/new-product/02.png" alt="recent post">
-                                    </div>
-                                    <div class="content">
-                                        <h5 class="title"><a href="#">Flash Deals Chair</a></h5>
-                                        <div class="common-rating-style left">
-                                            <input type="radio" name="start1" id="start221"><label
-                                                for="start221"></label>
-                                            <input type="radio" name="start1" id="start222"><label
-                                                for="start222"></label>
-                                            <input type="radio" name="start1" id="start223"><label
-                                                for="start223"></label>
-                                            <input type="radio" name="start1" id="start224"><label
-                                                for="start224"></label>
-                                            <input type="radio" name="start1" id="start225"><label
-                                                for="start225"></label>
-                                        </div>
-                                        <div class="common-price-style">
-                                            Price: <span class="black">$145</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="single-recent-post-item">
-                                    <div class="thumb">
-                                        <img src="assets/img/shop/new-product/03.png" alt="recent post">
-                                    </div>
-                                    <div class="content">
-                                        <h5 class="title"><a href="#">Hanging 4K Camera</a></h5>
-                                        <div class="common-rating-style left">
-                                            <input type="radio" name="start1" id="start331"><label
-                                                for="start331"></label>
-                                            <input type="radio" name="start1" id="start332"><label
-                                                for="start332"></label>
-                                            <input type="radio" name="start1" id="start333"><label
-                                                for="start333"></label>
-                                            <input type="radio" name="start1" id="start334"><label
-                                                for="start334"></label>
-                                            <input type="radio" name="start1" id="start335"><label
-                                                for="start335"></label>
-                                        </div>
-                                        <div class="common-price-style">
-                                            Price: <span class="black">$145</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="single-recent-post-item">
-                                    <div class="thumb">
-                                        <img src="assets/img/shop/new-product/04.png" alt="recent post">
-                                    </div>
-                                    <div class="content">
-                                        <h5 class="title"><a href="#">Back Camera Display</a></h5>
-                                        <div class="common-rating-style left">
-                                            <input type="radio" name="start1" id="start441"><label
-                                                for="start441"></label>
-                                            <input type="radio" name="start1" id="start442"><label
-                                                for="start442"></label>
-                                            <input type="radio" name="start1" id="start443"><label
-                                                for="start443"></label>
-                                            <input type="radio" name="start1" id="start444"><label
-                                                for="start444"></label>
-                                            <input type="radio" name="start1" id="start445"><label
-                                                for="start445"></label>
-                                        </div>
-                                        <div class="common-price-style">
-                                            Price: <span class="black">$145</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+<!--                        <div class="widget blog-bg style-01">-->
+<!--                            <h5 class="widget-title border-bottom">New Product</h5>-->
+<!--                            <ul class="recent_post_item">-->
+<!--                                <li class="single-recent-post-item">-->
+<!--                                    <div class="thumb">-->
+<!--                                        <img src="assets/img/shop/new-product/01.png" alt="recent post">-->
+<!--                                    </div>-->
+<!--                                    <div class="content">-->
+<!--                                        <h5 class="title"><a href="#">Creative Audio System</a></h5>-->
+<!--                                        <div class="common-rating-style left">-->
+<!--                                            <input type="radio" name="start1" id="start111"><label-->
+<!--                                                for="start111"></label>-->
+<!--                                            <input type="radio" name="start1" id="start112"><label-->
+<!--                                                for="start112"></label>-->
+<!--                                            <input type="radio" name="start1" id="start113"><label-->
+<!--                                                for="start113"></label>-->
+<!--                                            <input type="radio" name="start1" id="start114"><label-->
+<!--                                                for="start114"></label>-->
+<!--                                            <input type="radio" name="start1" id="start115"><label-->
+<!--                                                for="start115"></label>-->
+<!--                                        </div>-->
+<!--                                        <div class="common-price-style">-->
+<!--                                            Price: <span class="black">$145</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li class="single-recent-post-item">-->
+<!--                                    <div class="thumb">-->
+<!--                                        <img src="assets/img/shop/new-product/02.png" alt="recent post">-->
+<!--                                    </div>-->
+<!--                                    <div class="content">-->
+<!--                                        <h5 class="title"><a href="#">Flash Deals Chair</a></h5>-->
+<!--                                        <div class="common-rating-style left">-->
+<!--                                            <input type="radio" name="start1" id="start221"><label-->
+<!--                                                for="start221"></label>-->
+<!--                                            <input type="radio" name="start1" id="start222"><label-->
+<!--                                                for="start222"></label>-->
+<!--                                            <input type="radio" name="start1" id="start223"><label-->
+<!--                                                for="start223"></label>-->
+<!--                                            <input type="radio" name="start1" id="start224"><label-->
+<!--                                                for="start224"></label>-->
+<!--                                            <input type="radio" name="start1" id="start225"><label-->
+<!--                                                for="start225"></label>-->
+<!--                                        </div>-->
+<!--                                        <div class="common-price-style">-->
+<!--                                            Price: <span class="black">$145</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li class="single-recent-post-item">-->
+<!--                                    <div class="thumb">-->
+<!--                                        <img src="assets/img/shop/new-product/03.png" alt="recent post">-->
+<!--                                    </div>-->
+<!--                                    <div class="content">-->
+<!--                                        <h5 class="title"><a href="#">Hanging 4K Camera</a></h5>-->
+<!--                                        <div class="common-rating-style left">-->
+<!--                                            <input type="radio" name="start1" id="start331"><label-->
+<!--                                                for="start331"></label>-->
+<!--                                            <input type="radio" name="start1" id="start332"><label-->
+<!--                                                for="start332"></label>-->
+<!--                                            <input type="radio" name="start1" id="start333"><label-->
+<!--                                                for="start333"></label>-->
+<!--                                            <input type="radio" name="start1" id="start334"><label-->
+<!--                                                for="start334"></label>-->
+<!--                                            <input type="radio" name="start1" id="start335"><label-->
+<!--                                                for="start335"></label>-->
+<!--                                        </div>-->
+<!--                                        <div class="common-price-style">-->
+<!--                                            Price: <span class="black">$145</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li class="single-recent-post-item">-->
+<!--                                    <div class="thumb">-->
+<!--                                        <img src="assets/img/shop/new-product/04.png" alt="recent post">-->
+<!--                                    </div>-->
+<!--                                    <div class="content">-->
+<!--                                        <h5 class="title"><a href="#">Back Camera Display</a></h5>-->
+<!--                                        <div class="common-rating-style left">-->
+<!--                                            <input type="radio" name="start1" id="start441"><label-->
+<!--                                                for="start441"></label>-->
+<!--                                            <input type="radio" name="start1" id="start442"><label-->
+<!--                                                for="start442"></label>-->
+<!--                                            <input type="radio" name="start1" id="start443"><label-->
+<!--                                                for="start443"></label>-->
+<!--                                            <input type="radio" name="start1" id="start444"><label-->
+<!--                                                for="start444"></label>-->
+<!--                                            <input type="radio" name="start1" id="start445"><label-->
+<!--                                                for="start445"></label>-->
+<!--                                        </div>-->
+<!--                                        <div class="common-price-style">-->
+<!--                                            Price: <span class="black">$145</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
                         <!--// New Product Widget-->
 
 
