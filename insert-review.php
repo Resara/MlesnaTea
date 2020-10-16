@@ -9,5 +9,7 @@ include 'db/dbConnection.php';
 
         $mysqli ->query("INSERT INTO `review_tbl`(id, name, email, review) VALUES ('','$name','$email','$review')")
         or die($mysqli->error);
+
+        header("location:tea_review.php");
     }
 ?>
