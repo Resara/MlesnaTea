@@ -1,3 +1,12 @@
+<?php
+
+include 'db/dbConnection.php';
+//$id1 =  $_GET['id'];
+//$dataqqq1 = " SELECT * FROM category_tbl  WHERE category_id = 1 ";
+//$sql2qw = mysqli_query($connection,$dataqqq1);
+//$row3q = mysqli_fetch_array($sql2qw);
+//$row3q['category_id'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -400,97 +409,74 @@
                 <div class="featured-vehicle-slider">
                     <div class="vehicle-slider-active">
                         <!--Home 02 Vehicle Slider items-->
+                        <?php
+
+                        //                                    $dataq = " SELECT * FROM product_tbl  WHERE pro_catid = '$id1' ";
+                        //                                    $sqlq = mysqli_query($connection,$dataq);
+                        //                                    $rowq = mysqli_fetch_array($sqlq);
+                        //                                    $dataiq = $rowq['pro_id'];
+                        //
+                        //
+                        //                                    $datai = " SELECT * FROM image_table  WHERE pro_id = '$dataiq' ";
+                        //                                    $sqli = mysqli_query($connection,$datai);
+                        //                                    $rowi = mysqli_fetch_array($sqli);
+                        //                                    $datai = $rowi['image_name'];
+//                        $datai2 = " SELECT * FROM agent_image_tbl  WHERE agent_id = '$id1' ";
+//                        $sqli = mysqli_query($connection,$datai2);
+//                        $rowi = mysqli_fetch_array($sqli);
+//                        $datai = $rowi['image_name'];
+
+
+
+//                        $sql1 = mysqli_query($connection,"SELECT * FROM product_tbl ");
+//                        $row2 = mysqli_num_rows($sql1);
+//                        while ($row2 = mysqli_fetch_array($sql1)){
+//                        $proid1 = $row2['pro_id'];
+//                            $proid = $row2['pro_name'];
+//                            $proid3= $row2['pro_id'];
+//                            $proid4 = $row2['pro_id'];
+//                        $datai = " SELECT * FROM image_table  WHERE pro_id = '$proid' ";
+//                        $sqli = mysqli_query($connection,$datai);
+//                        $rowi = mysqli_fetch_array($sqli);
+//                        $datai = $rowi['image_name'];
+//                        ?>
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-01.png" alt="img">
+                                <img src="admin/galleryImg/BOP Sp Tea.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes S-Class</h5>
+                                <h5 class="heading-05">FBOPF1 Tea</h5>
                                 <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
+                                    <li class="list-items"> <i class="flaticon-auto-sale"></i><span class="title">
+                                                price</span> $220.00</li>
                                     <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
+                                                </span> 200g </li>
                                 </ul>
                             </div>
                             <div class="main-btn-wrap text-center">
-                                <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
+                                <a href="#" class="main-btn gray-border uppercase">Shop Now</a>
                             </div>
                         </div>
-                        <!--//Home 02 Vehicle Slider items-->
+<!--
+                      //Home 02 Vehicle Slider items-->
+
 
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-02.png" alt="img">
+                                <img src="admin/galleryImg/BOP Sp Tea.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes A-Class</h5>
+                                <h5 class="heading-05">BOP Sp Tea</h5>
                                 <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
+                                    <li class="list-items"> <i class="flaticon-auto-sale"></i><span class="title">
+                                                price</span> $230.00</li>
                                     <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
+                                                </span> 200g </li>
                                 </ul>
                             </div>
                             <div class="main-btn-wrap text-center">
-                                <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
-                            </div>
-                        </div>
-                        <!--// Home 02 Vehicle Slider items-->
-
-                        <!--Home 02 Vehicle Slider items-->
-                        <div class="h2-vehicle-slider-items">
-                            <div class="items-head">
-                                <img src="assets/img/home-02/slider-03.png" alt="img">
-                            </div>
-                            <div class="items-body">
-                                <h5 class="heading-05">Mercedes AMG GT</h5>
-                                <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
-                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
-                                </ul>
-                            </div>
-                            <div class="main-btn-wrap text-center">
-                                <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
-                            </div>
-                        </div>
-                        <!--// Home 02 Vehicle Slider items-->
-
-                        <!--Home 02 Vehicle Slider items-->
-                        <div class="h2-vehicle-slider-items">
-                            <div class="items-head">
-                                <img src="assets/img/home-02/slider-04.png" alt="img">
-                            </div>
-                            <div class="items-body">
-                                <h5 class="heading-05">Mercedes CLS</h5>
-                                <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
-                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
-                                </ul>
-                            </div>
-                            <div class="main-btn-wrap text-center">
-                                <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
+                                <a href="#" class="main-btn gray-border uppercase">Shop Now</a>
                             </div>
                         </div>
                         <!--// Home 02 Vehicle Slider items-->
@@ -498,23 +484,19 @@
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-01.png" alt="img">
+                                <img src="admin/galleryImg/BOP Sp Tea.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes C-Class</h5>
+                                <h5 class="heading-05">FBOPF Sp Tea</h5>
                                 <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
+                                    <li class="list-items"> <i class="flaticon-auto-sale"></i><span class="title">
+                                                price</span> $230.00</li>
                                     <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
+                                                </span> 200g </li>
                                 </ul>
                             </div>
                             <div class="main-btn-wrap text-center">
-                                <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
+                                <a href="#" class="main-btn gray-border uppercase">Shop Now</a>
                             </div>
                         </div>
                         <!--// Home 02 Vehicle Slider items-->
@@ -522,23 +504,59 @@
                         <!--Home 02 Vehicle Slider items-->
                         <div class="h2-vehicle-slider-items">
                             <div class="items-head">
-                                <img src="assets/img/home-02/slider-02.png" alt="img">
+                                <img src="admin/galleryImg/BOP Sp Tea.jpg" alt="img">
                             </div>
                             <div class="items-body">
-                                <h5 class="heading-05">Mercedes GLA</h5>
+                                <h5 class="heading-05">FBOP</h5>
                                 <ul class="list-items-wrap">
-                                    <li class="list-items"> <i class="flaticon-car-1"></i><span class="title">
-                                                Model:</span> 2017 </li>
+                                    <li class="list-items"> <i class="flaticon-auto-sale"></i><span class="title">
+                                                price</span> $204.00</li>
                                     <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
-                                                Speed:</span> 182mph </li>
-                                    <li class="list-items"> <i class="flaticon-fuel-station"></i><span
-                                            class="title"> Auto: </span> Petrol </li>
-                                    <li class="list-items"> <i class="flaticon-engine"></i><span class="title">
-                                                Engine:</span> 563hp </li>
+                                                </span> 200g </li>
                                 </ul>
                             </div>
                             <div class="main-btn-wrap text-center">
-                                <a href="#" class="main-btn gray-border uppercase">EXPLORE</a>
+                                <a href="#" class="main-btn gray-border uppercase">Shop Now</a>
+                            </div>
+                        </div>
+                        <!--// Home 02 Vehicle Slider items-->
+
+                        <!--Home 02 Vehicle Slider items-->
+                        <div class="h2-vehicle-slider-items">
+                            <div class="items-head">
+                                <img src="admin/galleryImg/BOP Sp Tea.jpg" alt="img">
+                            </div>
+                            <div class="items-body">
+                                <h5 class="heading-05">BOPF Tea</h5>
+                                <ul class="list-items-wrap">
+                                    <li class="list-items"> <i class="flaticon-auto-sale"></i><span class="title">
+                                                price</span> $220.00</li>
+                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
+                                                </span> 200g </li>
+                                </ul>
+                            </div>
+                            <div class="main-btn-wrap text-center">
+                                <a href="#" class="main-btn gray-border uppercase">Shop Now</a>
+                            </div>
+                        </div>
+                        <!--// Home 02 Vehicle Slider items-->
+
+                        <!--Home 02 Vehicle Slider items-->
+                        <div class="h2-vehicle-slider-items">
+                            <div class="items-head">
+                                <img src="admin/galleryImg/BOP Sp Tea.jpg" alt="img">
+                            </div>
+                            <div class="items-body">
+                                <h5 class="heading-05">BOP1A</h5>
+                                <ul class="list-items-wrap">
+                                    <li class="list-items"> <i class="flaticon-auto-sale"></i><span class="title">
+                                                price</span> $120.00</li>
+                                    <li class="list-items"> <i class="flaticon-speedometer"></i><span class="title">
+                                                </span> 200g </li>
+                                </ul>
+                            </div>
+                            <div class="main-btn-wrap text-center">
+                                <a href="#" class="main-btn gray-border uppercase">Shop Now</a>
                             </div>
                         </div>
                         <!--// Home 02 Vehicle Slider items-->
@@ -571,9 +589,9 @@
                             <div class="grid-list-column-item">
                                 <span class="price-drop-tag">22%</span>
                                 <div class="thumb">
-                                    <img src="assets/img/shop/product/01.png" alt="img">
+                                    <img src="admin/galleryImg/BOP Sp Tea.jpg" alt="img">
                                 </div>
-                                <h5 class="title padding-top-10">Black Tea</h5>
+                                <h5 class="title padding-top-10">FBOP</h5>
                                 <div class="common-rating-style">
                                     <input type="radio" name="start1" id="start1"><label for="start1"></label>
                                     <input type="radio" name="start1" id="start2"><label for="start2"></label>
@@ -582,11 +600,11 @@
                                     <input type="radio" name="start1" id="start5"><label for="start5"></label>
                                 </div>
                                 <div class="common-price-style ">
-                                    Price: <span class="black">$145</span>
+                                    Price: <span class="black">$245</span>
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
-                                    <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
-                                        Order Now</a>
+                                    <a href="" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
+                                        Add To Cart</a>
                                 </div>
                             </div>
                             <!--// Grid List Column-->
@@ -596,9 +614,9 @@
                             <div class="grid-list-column-item">
                                 <span class="price-drop-tag">22%</span>
                                 <div class="thumb">
-                                    <img src="assets/img/shop/product/02.png" alt="img">
+                                    <img src="admin/galleryImg/FBOPF Sp Tea.jpg" alt="img">
                                 </div>
-                                <h5 class="title padding-top-10">Air Intake System</h5>
+                                <h5 class="title padding-top-10">FBOPF Sp Tea</h5>
                                 <div class="common-rating-style">
                                     <input type="radio" name="start1" id="start21"><label for="start21"></label>
                                     <input type="radio" name="start1" id="start22"><label for="start22"></label>
@@ -607,7 +625,7 @@
                                     <input type="radio" name="start1" id="start25"><label for="start25"></label>
                                 </div>
                                 <div class="common-price-style ">
-                                    Price: <span class="black">$145</span>
+                                    Price: <span class="black">$135</span>
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
                                     <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
@@ -623,9 +641,9 @@
                             <div class="grid-list-column-item">
                                 <span class="price-drop-tag">22%</span>
                                 <div class="thumb">
-                                    <img src="assets/img/shop/product/02.png" alt="img">
+                                    <img src="admin/galleryImg/BOPF Tea.jpg" alt="img">
                                 </div>
-                                <h5 class="title padding-top-10">Air Intake System</h5>
+                                <h5 class="title padding-top-10">BOP1A</h5>
                                 <div class="common-rating-style">
                                     <input type="radio" name="start1" id="start21"><label for="start21"></label>
                                     <input type="radio" name="start1" id="start22"><label for="start22"></label>
@@ -634,7 +652,7 @@
                                     <input type="radio" name="start1" id="start25"><label for="start25"></label>
                                 </div>
                                 <div class="common-price-style ">
-                                    Price: <span class="black">$145</span>
+                                    Price: <span class="black">$45</span>
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
                                     <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>
@@ -650,9 +668,9 @@
                             <div class="grid-list-column-item">
                                 <span class="price-drop-tag">22%</span>
                                 <div class="thumb">
-                                    <img src="assets/img/shop/product/03.png" alt="img">
+                                    <img src="admin/galleryImg/BOP Sp Tea.jpg" alt="img">
                                 </div>
-                                <h5 class="title padding-top-10">Auto Clutch & Brake</h5>
+                                <h5 class="title padding-top-10">BOPF Tea</h5>
                                 <div class="common-rating-style">
                                     <input type="radio" name="start1" id="start31"><label for="start31"></label>
                                     <input type="radio" name="start1" id="start32"><label for="start32"></label>
@@ -661,7 +679,7 @@
                                     <input type="radio" name="start1" id="start35"><label for="start35"></label>
                                 </div>
                                 <div class="common-price-style ">
-                                    Price: <span class="black">$145</span>
+                                    Price: <span class="black">$165</span>
                                 </div>
                                 <div class="main-btn-wrap padding-top-20">
                                     <a href="#" class="main-btn black-border"><i class="flaticon-shopping-cart"></i>

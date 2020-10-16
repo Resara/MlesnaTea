@@ -353,7 +353,7 @@ $id1 =  $_GET['id'];
                                             </div>
                                             <div class="car-functional-wrap__item">
                                                 <div class="main-btn-wrap padding-top-20">
-                                                    <a href="agentContactForm.php?id=<?php echo  $row2['agent_id']; ?>" class="main-btn black-border"><i class="flaticon-car-insurance"
+                                                    <a href="singleproduct.php?id=<?php echo  $row2['pro_id']; ?>" class="main-btn black-border"><i class="flaticon-car-insurance"
                                                         ></i>
                                                         Buy Now</a>
                                                 </div>
