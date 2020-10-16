@@ -57,13 +57,13 @@
     <!--// Slider Row End-->
 
 
-    <section class="how-we-are padding-50" style="background: black" id="about">
+    <section class="how-we-are padding-50" style="background: black" >
     </section>
 
 
 
     <!--About Story Start-->
-    <section class="about-story-section padding-top-60 padding-bottom-50">
+    <section class="about-story-section padding-top-60 padding-bottom-50" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -115,12 +115,12 @@
 
 
     <!--Process Section -->
-    <section class="process-section padding-bottom-80 padding-top-60" style="background-image: url(assets/img/Pazan/about3.jpg)">
+    <section class="process-section padding-bottom-80 padding-top-60" style="background-image: url(assets/img/Pazan/backk.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title padding-bottom-50">
-                        <h2 class="heading-02">Most Popular</h2>
+                        <h2 class="heading-02">Most Popular Products</h2>
                     </div>
                 </div>
             </div>
@@ -130,16 +130,16 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/service/details-03.png" alt="img">
+                                <img src="assets/img/Navo/p1.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
                             <div class="number">01</div>
-                            <h4 class="title">Engine Functions</h4>
+<!--                            <h4 class="title">Engine Functions</h4>-->
                         </div>
                         <section class="service-single-item">
                             <div class="service-content">
-                                <a href="#" class="more-details">More Details</a>
+                                <a href="monthly_pop.php" class="more-details">More Details</a>
                             </div>
                         </section>
                     </div>
@@ -150,16 +150,16 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/service/details-04.png" alt="img">
+                                <img src="assets/img/Navo/p4.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
                             <div class="number">02</div>
-                            <h4 class="title">Engine Functions</h4>
+<!--                            <h4 class="title">Engine Functions</h4>-->
                         </div>
                         <section class="service-single-item">
                             <div class="service-content">
-                                <a href="#" class="more-details">More Details</a>
+                                <a href="monthly_pop.php" class="more-details">More Details</a>
                             </div>
                         </section>
                     </div>
@@ -170,16 +170,16 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/service/details-04.png" alt="img">
+                                <img src="assets/img/Navo/p3.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
                             <div class="number">03</div>
-                            <h4 class="title">Engine Functions</h4>
+<!--                            <h4 class="title">Engine Functions</h4>-->
                         </div>
                         <section class="service-single-item">
                             <div class="service-content">
-                                <a href="#" class="more-details">More Details</a>
+                                <a href="monthly_pop.php" class="more-details">More Details</a>
                             </div>
                         </section>
                     </div>
@@ -194,7 +194,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title padding-bottom-50 padding-top-40">
-                        <h2 class="heading-02">Newly Added</h2>
+                        <h2 class="heading-02">Newly Added Products</h2>
                     </div>
                 </div>
             </div>
@@ -204,16 +204,36 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/service/details-03.png" alt="img">
+                                <img src="assets/img/Navo/n1.jpg" alt="img" style="width: 400px ;height: 400px">
+                            </div>
+                        </div>
+                        <div class="content-area">
+                            <div class="number">01</div>
+<!--                            <h4 class="title">Engine Functions</h4>-->
+                        </div>
+                        <section class="service-single-item">
+                            <div class="service-content">
+                                <a href="new_arrivals.php" class="more-details">More Details</a>
+                            </div>
+                        </section>
+                    </div>
+                    <!--// Process item-->
+                </div>
+                <div class="col-lg-4">
+                    <!--Process left Content-->
+                    <div class="process-section__left__items">
+                        <div class="thumb-area">
+                            <div class="thumb">
+                                <img src="assets/img/Navo/n4.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
                             <div class="number">02</div>
-                            <h4 class="title">Engine Functions</h4>
+<!--                            <h4 class="title">Engine Functions</h4>-->
                         </div>
                         <section class="service-single-item">
                             <div class="service-content">
-                                <a href="#" class="more-details">More Details</a>
+                                <a href="new_arrivals.php" class="more-details">More Details</a>
                             </div>
                         </section>
                     </div>
@@ -224,36 +244,16 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/service/details-04.png" alt="img">
+                                <img src="assets/img/Navo/n3.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
                             <div class="number">03</div>
-                            <h4 class="title">Engine Functions</h4>
+<!--                            <h4 class="title">Engine Functions</h4>-->
                         </div>
                         <section class="service-single-item">
                             <div class="service-content">
-                                <a href="#" class="more-details">More Details</a>
-                            </div>
-                        </section>
-                    </div>
-                    <!--// Process item-->
-                </div>
-                <div class="col-lg-4">
-                    <!--Process left Content-->
-                    <div class="process-section__left__items">
-                        <div class="thumb-area">
-                            <div class="thumb">
-                                <img src="assets/img/service/details-04.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="content-area">
-                            <div class="number">03</div>
-                            <h4 class="title">Engine Functions</h4>
-                        </div>
-                        <section class="service-single-item">
-                            <div class="service-content">
-                                <a href="#" class="more-details">More Details</a>
+                                <a href="new_arrivals.php" class="more-details">More Details</a>
                             </div>
                         </section>
                     </div>
@@ -292,15 +292,16 @@
                     <div class="testimonial-inner padding-top-20">
                         <div class="testimonial-left">
                             <div class="testimonial-images-02">
-                                <div class="items"><img src="assets/img/testimonial/03.png" alt="img"> </div>
+                                <div class="items"><img src="assets/img/Pazan/awards.jpg" alt="img"> </div>
                                 <!--// Item -->
-                                <div class="items"><img src="assets/img/testimonial/04.png" alt="img"> </div>
+                                <div class="items"><img src="assets/img/Pazan/awards.jpg" alt="img"> </div>
                                 <!--// Item -->
-                                <div class="items"><img src="assets/img/testimonial/03.png" alt="img"> </div>
+                                <div class="items"><img src="assets/img/Pazan/awards.jpg" alt="img"> </div>
                                 <!--// Item -->
-                                <div class="items"><img src="assets/img/testimonial/03.png" alt="img"> </div>
+                                <div class="items"><img src="assets/img/Pazan/awards.jpg" alt="img"> </div>
                                 <!--// Item -->
-                                <div class="items"><img src="assets/img/testimonial/03.png" alt="img"> </div>
+                                <div class="items"><img src="assets/img/Pazan/awards.jpg" alt="img"> </div>
+                                <div class="items"><img src="assets/img/Pazan/awards.jpg" alt="img"> </div>
                                 <!--// Item -->
                             </div>
                             <!--// Testimonial images Slider Active Class-->
