@@ -77,51 +77,54 @@ $row3q1['category_id'];
         <div class="row">
             <div class="header-bottom-area">
 
-                <!--Logo Area Start-->
-                <div class="logo-area">
-                    <a href="index.php">
-                        <img src="assets/img/Pazan/logosdasdadsd.png" alt="Logo" style="width: 90px ;height: 90px">
-                    </a>
-                </div>
-                <!--// Logo Area End-->
+                    <!--Logo Area Start-->
+                    <div class="logo-area">
+                        <a href="index.php">
+                            <img src="assets/img/Pazan/logosdasdadsd.png" alt="Logo" style="width: 90px ;height: 90px">
+                        </a>
+                    </div>
+                    <!--// Logo Area End-->
 
-                <!--Navbar Area Start Here-->
-                <nav class="navbar navbar-area navbar-expand-lg style-02">
-                    <div class="container nav-container">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#autoshop_main_menu" aria-expanded="false"
-                                aria-label="Toggle navigation">
+                    <!--Navbar Area Start Here-->
+                    <nav class="navbar navbar-area navbar-expand-lg style-02">
+                        <div class="container nav-container">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#autoshop_main_menu" aria-expanded="false"
+                                    aria-label="Toggle navigation">
                                     <span class="humberger-menu">
                                         <span class="one"></span>
                                         <span class="two"></span>
                                         <span class="three"></span>
                                     </span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="autoshop_main_menu">
-                            <ul class="navbar-nav">
-                                <li><a href="index.php">Home</a></li>
-                                <!--                                    <li><a href="service.html">Tea Guide</a></li>-->
-                                <li class="menu-item-has-children">
-                                    <a href="#">The Tea Catalogue</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="products.php?id=<?php echo  $row3q1['category_id']; ?>">Tea Products</a></li>
-                                        <li><a href="speciality_tea.php">Speciality Tea</a></li>
-                                        <li><a href="consumerItems.php">Consumer Items</a></li>
-                                        <li><a href="catering.php">Catering Items</a></li>
-                                        <li><a href="beawring.php">Brewing & Tasting</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="agents?id=<?php echo  $row3q['country_id']; ?>">Overseas Agents</a></li>
-                                <li><a href="new_order.php">Importors</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Learn about tea </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="history.php">History</a></li>
-                                        <li><a href="recipes.php">Recipes</a></li>
-                                        <li><a href="glossary.php">Glossary</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="tea_review.php">Reviews</a></li>
+                            </button>
+                            <div class="collapse navbar-collapse" id="autoshop_main_menu">
+                                <ul class="navbar-nav">
+                                    <li><a href="index.php">Home</a></li>
+<!--                                    <li><a href="service.html">Tea Guide</a></li>-->
+                                    <li class="menu-item-has-children">
+                                        <a href="#">The Tea Catalogue</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Tea Store</a></li>
+                                            <li><a href="blog.html">Speciality Tea</a></li>
+                                            <li><a href="blog.html">Consumer Items</a></li>
+                                            <li><a href="blog.html">Catering Items</a></li>
+                                            <li><a href="blog.html">Brewing & Tasting</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="service.html">Overseas</a></li>
+                                    <li><a href="service.html">Importors</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">The Tea Catalogue</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">History</a></li>
+                                            <li><a href="recipes.php">Recipes</a></li>
+                                            <li><a href="blog.html">Glossary</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="tea_review.php">Reviews</a></li>
+
+                                </ul>
+                            </div>
 
                             </ul>
                         </div>

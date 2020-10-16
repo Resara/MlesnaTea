@@ -41,12 +41,10 @@
                                                         <ul>
                                                             <li><a class="icon" href="https://www.facebook.com/pages/category/Company/Mlesna-1481982108710124/"
                                                                    target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                            <li><a class="icon" href="https://twitter.com/codingeeknet"
-                                                                   target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                            <li><a class="icon" href="https://www.instagram.com/codingeeknet"
+                                                            <li><a class="icon" href="https://www.instagram.com/mlesnaceylontea/?hl=en"
                                                                    target="_blank"><i class="fab fa-instagram"></i></a></li>
                                                             <li><a class="icon"
-                                                                   href="https://www.linkedin.com/company/codingeek/about"
+                                                                   href="https://lk.linkedin.com/company/mlesna-teas-private-limited"
                                                                    target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                                                         </ul>
                                                     </div>
@@ -153,3 +151,5 @@
 <!-- <script src="assets/js/goolg-map-activate.js"></script> -->
 <!-- main js -->
 <script src="assets/js/main.js"></script>
+<!--Custom Input Number-->
+<script src="assets/js/custom-input-number.js"></script>

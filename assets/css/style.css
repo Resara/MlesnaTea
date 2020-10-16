@@ -2005,7 +2005,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         width: 100%; }
       .navbar-area .nav-container .navbar-collapse .navbar-nav li {
         display: inline-block;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 65px;
         font-family: var(--menu-font);
         font-weight: 400;
@@ -2065,7 +2065,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
               display: block;
               margin-left: 0;
               line-height: 25px;
-              font-size: 11px;
+              font-size: 13px;
               font-weight: 400;
               font-family: var(--menu-font);
               padding: 0; }

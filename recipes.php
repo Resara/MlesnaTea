@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!--// Main Header End Here-->
 <?php include 'header2.php'?>
+
+<body>
+<section>
+    <div class="padding-top-120"></div>
+</section>
 <!--Breadcrumb Start-->
 <script></script>
 <div class="breadcrumb-area style-02">
