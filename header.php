@@ -29,6 +29,23 @@
 
 </head>
 <body>
+
+<?php
+
+include 'db/dbConnection.php';
+//$id1 =  $_GET['id'];
+$dataqqq = " SELECT * FROM country  WHERE country_id = 4 ";
+$sql2qw = mysqli_query($connection,$dataqqq);
+$row3q = mysqli_fetch_array($sql2qw);
+//$row3q['country_id'];
+
+$dataqqq1 = " SELECT * FROM category_tbl  WHERE category_id = 1 ";
+$sql2qw = mysqli_query($connection,$dataqqq1);
+$row3q1 = mysqli_fetch_array($sql2qw);
+$row3q1['category_id'];
+?>
+
+
 <!-- preloader area start -->
 <div class="preloader" id="preloader">
     <div class="preloader-inner">
@@ -87,14 +104,14 @@
                                     <li class="menu-item-has-children">
                                         <a href="#">The Tea Catalogue</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Tea Store</a></li>
+                                            <li><a href="products.php?id=<?php echo  $row3q1['category_id']; ?>">Tea Products</a></li>
                                             <li><a href="speciality_tea.php">Speciality Tea</a></li>
                                             <li><a href="consumerItems.php">Consumer Items</a></li>
-                                            <li><a href="blog.html">Catering Items</a></li>
-                                            <li><a href="blog.html">Brewing & Tasting</a></li>
+                                            <li><a href="catering.php">Catering Items</a></li>
+                                            <li><a href="beawring.php">Brewing & Tasting</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="service.html">Overseas</a></li>
+                                    <li><a href="agents?id=<?php echo  $row3q['country_id']; ?>">Overseas Agents</a></li>
                                     <li><a href="new_order.php">Importors</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Learn about tea </a>

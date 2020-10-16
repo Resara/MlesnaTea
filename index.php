@@ -194,7 +194,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title padding-bottom-50 padding-top-40">
-                        <h2 class="heading-02">Newly Added Products</h2>
+                        <h2 class="heading-02">Most Selling Products</h2>
                     </div>
                 </div>
             </div>
