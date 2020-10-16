@@ -112,7 +112,7 @@ $row3q1['category_id'];
                                         </ul>
                                     </li>
                                     <li><a href="service.html">Overseas</a></li>
-                                    <li><a href="service.html">Importors</a></li>
+                                    <li><a href="new_order.php">Importors</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="#">The Tea Catalogue</a>
                                         <ul class="sub-menu">
