@@ -1,5 +1,4 @@
 <div class="footer-sytle padding-top-30 padding-bottom-10">
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -89,7 +88,7 @@
 
 <!-- back to top area start -->
 <div class="back-to-top">
-    <span class="back-top"> <img src="assets/img/backToTop1.png" alt="img"> </span>
+    <span class="back-top"> <img src="assets/img/back-to-top.png" alt="img"> </span>
 </div>
 <!-- back to top area end -->
 

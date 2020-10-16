@@ -4,7 +4,7 @@
 <?php include('header.php');?>
 
 <!--Breadcrumb Start-->
-<div class="breadcrumb-area" style="background-image: url('assets/img/Pazan/history2.jpg')">
+<div class="breadcrumb-area" style="background-image: url('assets/img/Bhagya/speciality2.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -33,7 +33,7 @@
                     <div>
                         <div class="border-bg top"></div>
                         <div ">
-                        <img src="assets/img/Bhagya/ceylon.jpg" alt="img" style="width: 400px ;height: 300px">
+                        <img src="assets/img/Bhagya/ceylon2.jpg" alt="img" style="width: 400px ;height: 300px">
                     </div>
                     </div>
                 </div>

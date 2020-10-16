@@ -58,7 +58,7 @@ $row3q1['category_id'];
 <!-- preloader area end -->
 
 <!--Full Width Sider Start-->
-<div class="full-width-slider">
+<!--<div class="full-width-slider">-->
     <!--Main Header Start-->
     <header>
         <!--Topbar area-->
