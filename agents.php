@@ -99,8 +99,8 @@ $id1 =  $_GET['id'];
                                     $row2 = mysqli_num_rows($sql1);
                                     while ($row2 = mysqli_fetch_array($sql1)){
 
-                                        $proid =$row2['agent_id'];
-                                        $datai = " SELECT * FROM agent_image_tbl  WHERE agent_id = '$proid' ";
+//                                        $proid =$row2['agent_id'];
+                                        $datai = " SELECT * FROM agent_image_tbl  WHERE agent_id = $row2[agent_id]; ";
                                         $sqli = mysqli_query($connection,$datai);
                                         $rowi = mysqli_fetch_array($sqli);
 //                                        $datai = $rowi['image_name'];
@@ -110,9 +110,9 @@ $id1 =  $_GET['id'];
                                     <div class="grid-list-column-item" id="subCateID">
 <!--                                        <span class="price-drop-tag">22%</span>-->
                                         <div class="thumb">
-                                            <img style="width: 151px;height: 151px;" src="admin/galleryImg/1.png" alt="img">
+                                            <img style="width: 151px;height: 151px;" src="admin/galleryImg/<?php echo $rowi['image_name'];?>" alt="img">
                                         </div>
-                                        <h5 class="title padding-top-10">name</h5>
+                                        <h5 class="title padding-top-10"><?php echo $row2['agent_name'];?></h5>
                                         <div class="common-rating-style">
                                             <input type="radio" name="start1" id="start1" ><label for="start1" ></label>
                                             <input type="radio" name="start1" id="start2"><label for="start2"></label>
@@ -838,27 +838,6 @@ $id1 =  $_GET['id'];
 
 
     <!-- jquery -->
-    <script src="assets/js/jquery-3.4.1.min.js"></script>
-    <!--migrate-->
-    <script src="assets/js/jquery-migrate.min.js"></script>
-    <!-- bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- waypoint -->
-    <script src="assets/js/waypoints.min.js"></script>
-    <!--Jquery UI-->
-    <script src="assets/js/jquery-ui.js"></script>
-    <!-- wow -->
-    <script src="assets/js/wow.min.js"></script>
-    <!--Slick Js-->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- counterup -->
-    <script src="assets/js/jQuery.rcounter.js"></script>
-    <!--Nice Select-->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- imageloaded -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- main js -->
-    <script src="assets/js/main.js"></script>
 
     <script type="text/javascript">
         function getCategory() {

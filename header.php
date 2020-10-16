@@ -34,7 +34,7 @@
 
 include 'db/dbConnection.php';
 //$id1 =  $_GET['id'];
-$dataqqq = " SELECT * FROM country  WHERE country_id = 4 ";
+$dataqqq = " SELECT * FROM country  WHERE country_id = 5 ";
 $sql2qw = mysqli_query($connection,$dataqqq);
 $row3q = mysqli_fetch_array($sql2qw);
 //$row3q['country_id'];
