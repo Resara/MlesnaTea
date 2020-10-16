@@ -28,7 +28,7 @@ $id1 =  $_GET['id'];
                 <div class="breadcrumb-content">
                     <h1 class="page-title">Agents</h1>
                     <ul class="page-list">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>Agents</li>
                     </ul>
                 </div>
@@ -835,30 +835,6 @@ $id1 =  $_GET['id'];
     </div>
     <!-- back to top area end -->
 
-
-
-    <!-- jquery -->
-    <script src="assets/js/jquery-3.4.1.min.js"></script>
-    <!--migrate-->
-    <script src="assets/js/jquery-migrate.min.js"></script>
-    <!-- bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- waypoint -->
-    <script src="assets/js/waypoints.min.js"></script>
-    <!--Jquery UI-->
-    <script src="assets/js/jquery-ui.js"></script>
-    <!-- wow -->
-    <script src="assets/js/wow.min.js"></script>
-    <!--Slick Js-->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- counterup -->
-    <script src="assets/js/jQuery.rcounter.js"></script>
-    <!--Nice Select-->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- imageloaded -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- main js -->
-    <script src="assets/js/main.js"></script>
 
     <script type="text/javascript">
         function getCategory() {

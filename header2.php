@@ -63,7 +63,7 @@
                     <!--Logo Area Start-->
                     <div class="logo-area">
                         <a href="index.php">
-                            <img src="assets/img/logo.png" alt="Logo">
+                            <img src="assets/img/Pazan/logosdasdadsd.png" alt="Logo" style="width: 90px ;height: 90px">
                         </a>
                     </div>
                     <!--// Logo Area End-->
@@ -83,7 +83,7 @@
                             <div class="collapse navbar-collapse" id="autoshop_main_menu">
                                 <ul class="navbar-nav">
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="service.html">Tea Guide</a></li>
+<!--                                    <li><a href="service.html">Tea Guide</a></li>-->
                                     <li class="menu-item-has-children">
                                         <a href="#">The Tea Catalogue</a>
                                         <ul class="sub-menu">
