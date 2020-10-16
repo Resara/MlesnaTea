@@ -37,36 +37,36 @@ include 'db/dbConnection.php';
 
             </div>
             <div class="col-lg-8">
-                <form action="experts_save.php" class="contact-form" method="post">
+                <form action="experts_save.php" class="contact-form" method="post" required>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" name="name">
+                                <input type="text" class="form-control" id="name" name="name"  required>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" name="email">
+                                <input type="email" class="form-control" id="email" name="email" required>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="phone">Phone</label>
-                                <input type="tel" class="form-control" id="phone" name="phone">
+                                <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{10}" required>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="subject">Subject</label>
-                                <input type="text" class="form-control" id="subject" name="subject">
+                                <input type="text" class="form-control" id="subject" name="subject" required>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" cols="30" rows="10" id="message" name="message"></textarea>
+                                <textarea class="form-control" cols="30" rows="10" id="message" name="message" required></textarea>
                             </div>
                             <div class="main-btn-wrap">
                                 <input class="main-btn black" name="save" type="submit" value="Send Message">

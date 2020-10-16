@@ -7,7 +7,7 @@
 <html lang="en">
 
 <!--Breadcrumb Start-->
-<div class="breadcrumb-area" style="background-image: url('assets/img/Pazan/history2.jpg')">
+<div class="breadcrumb-area" style="background-image: url('assets/img/Bhagya/consumer.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

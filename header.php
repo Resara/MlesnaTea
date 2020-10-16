@@ -41,7 +41,7 @@
 <!-- preloader area end -->
 
 <!--Full Width Sider Start-->
-<div class="full-width-slider">
+<!--<div class="full-width-slider">-->
     <!--Main Header Start-->
     <header>
         <!--Topbar area-->
@@ -91,7 +91,7 @@
                                             <li><a href="speciality_tea.php">Speciality Tea</a></li>
                                             <li><a href="consumerItems.php">Consumer Items</a></li>
                                             <li><a href="blog.html">Catering Items</a></li>
-                                            <li><a href="blog.html">Brewing & Tasting</a></li>
+                                            <li><a href="beawring.php">Brewing & Tasting</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="service.html">Overseas</a></li>
@@ -100,11 +100,11 @@
                                         <a href="#">Learn about tea </a>
                                         <ul class="sub-menu">
                                             <li><a href="history.php">History</a></li>
-                                            <li><a href="blog.html">Recipes</a></li>
-                                            <li><a href="blog.html">Glossary</a></li>
+                                            <li><a href="recipes.php">Recipes</a></li>
+                                            <li><a href="glossary.php">Glossary</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="service.html">Reviews</a></li>
+                                    <li><a href="tea_review.php">Reviews</a></li>
 
                                 </ul>
                             </div>

@@ -130,7 +130,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/p1.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/p11.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
@@ -150,7 +150,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/p4.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/p15.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
@@ -170,7 +170,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/p3.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/p16.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
@@ -204,7 +204,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/n1.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/n12.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
@@ -224,7 +224,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/n4.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/n13.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
@@ -244,7 +244,7 @@
                     <div class="process-section__left__items">
                         <div class="thumb-area">
                             <div class="thumb">
-                                <img src="assets/img/Navo/n3.jpg" alt="img" style="width: 400px ;height: 400px">
+                                <img src="assets/img/Navo/n14.jpg" alt="img" style="width: 400px ;height: 400px">
                             </div>
                         </div>
                         <div class="content-area">
